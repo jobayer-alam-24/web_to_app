@@ -45,8 +45,9 @@ public class AlbumActivity extends AppCompatActivity {
         bongoBazar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                websiteUrl = "https://www.bongo.com.bd/";
+                websiteUrl = "https://bongobazarbd.shop/";
                 Intent next = new Intent(AlbumActivity.this, DisplayActivity.class);
+                startActivity(next);
             }
         });
 

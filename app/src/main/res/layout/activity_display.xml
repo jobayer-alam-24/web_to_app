@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context=".DisplayActivity">
 
     <LinearLayout
@@ -12,11 +13,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
+
         <WebView
             android:id="@+id/display"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+            android:layout_height="match_parent" />
     </LinearLayout>
 
 </ScrollView>
